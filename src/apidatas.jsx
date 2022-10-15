@@ -8,6 +8,7 @@ export default function Apidatas() {
   const [details, setDetails] = useState({})
   const [viewBtn, setViewBtn] = useState(true)
   const fetching = useNavigate()
+  console.log("jjjkf")
 
   const loadData = () => {
     axios.get("https://reqres.in/api/users?page")
